@@ -2,7 +2,7 @@
 
 int main(void)
 /**
-Main is the function responsible for the starting and execution of a programme
+*Main is the function responsible for the starting and execution of a programme
 */
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
