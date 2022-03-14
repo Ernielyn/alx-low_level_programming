@@ -3,6 +3,8 @@
 int main(void)
 /**
 *Main is the function responsible for the starting and execution of a programme
+*
+*Return: Always 0 (Success)
 */
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
