@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 *print_alhabet_x10 - a function which prints the alphabet 10 times
