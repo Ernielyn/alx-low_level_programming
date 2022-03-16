@@ -2,7 +2,9 @@
 /**
  * add- a function which adds two integers and returns the result
  *
- * @d, e: the interger inputs which are added
+ * @d: integer input to be added
+ *
+ * @e: the interger input which is added
  *
  * Return: returns thesum of the input integers
  */
