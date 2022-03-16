@@ -1,7 +1,7 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-int _putchar(char *fmt, ...);
+int _putchar(char *format);
 
 void print_alphabet(void);
 
