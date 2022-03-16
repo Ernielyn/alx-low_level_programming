@@ -12,16 +12,16 @@ void print_alphabet(void)
 
 	num = 0;
 
-	while (num<10)
+	while (num < 10)
 	{
 		ch = 'a';
 
 		while (ch <= 'z')
 		{
-			putchar(ch);
+			_putchar(ch);
 			ch++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		num++;
 	}
 }
