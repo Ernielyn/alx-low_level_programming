@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - start of the program
  *
  * Return: always 0
  */
+
 int main(void)
 {
 	int i;
@@ -21,4 +22,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("Buzz\n");
+	
+	return (0);
 }
