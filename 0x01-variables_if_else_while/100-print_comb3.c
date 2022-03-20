@@ -19,8 +19,8 @@ int main(void)
 				putchar(a + '0');
 				putchar(b + '0');
 
-				if (a != 8 && b != 9)
-					break;
+				if (a == 8 && b == 9)
+					continue;
 
 				putchar(',');
 				putchar(' ');
