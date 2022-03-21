@@ -11,32 +11,30 @@
 
 void rev_string(char *s)
 {
-	int i, j, k, l, m, n;
+	int i, j, k, l, n;
+	char *test;
+	char *st;
 
 	n = strlen(s);
-
-	char rev[n];
-	char store[n];
 
 	i = 0;
 	while (i <= n)
 	{
-		store[i] = s[i];
+		st[i] = s[i];
 		i++;
 	}
 
 	k = n - 1;
-	
-	for  (j =  k,  i = 0; k >= 0, i <= n; j--, i++)
+
+	for  (j =  k,  i = 0; j >= 0, i <= n; j--, i++)
 	{
-		rev[i] = store[j];
+		test[i] = store[j];
 	}
 
 	l = 0;
 	while (l <= n)
 	{
-		s[l] = rev[i];
+		s[l] = test[i];
 		l++;
 	}
-	
 }

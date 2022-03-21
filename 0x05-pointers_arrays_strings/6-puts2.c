@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts2 - function which every other character of the string starting with the first character
+ * puts2 - function which every other character of the string
  *
  * @str: input variable
  *
@@ -24,5 +24,5 @@ void puts2(char *str)
 		i++;
 	}
 
-	_putchar('\n\);
+	_putchar('\n');
 }
