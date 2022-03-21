@@ -1,0 +1,1 @@
+Pointers are variables which store the address of another variable, an array is a collection of similar type of data items stored at contiguous memory locations, a string is a sequence of characters terminated with a null character \0
