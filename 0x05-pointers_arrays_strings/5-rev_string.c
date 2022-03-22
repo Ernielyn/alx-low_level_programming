@@ -17,6 +17,9 @@ void rev_string(char *s)
 
 	n = strlen(s);
 
+	char test[n];
+	char st[n];
+
 	i = 0;
 	while (i <= n)
 	{
