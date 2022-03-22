@@ -12,13 +12,10 @@
 void rev_string(char *s)
 {
 	int i, j, k, l, n;
-	char *test;
-	char *st;
+	char test[20000];
+	char st[20000];
 
 	n = strlen(s);
-
-	char test[n];
-	char st[n];
 
 	i = 0;
 	while (i <= n)
