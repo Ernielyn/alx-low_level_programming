@@ -26,9 +26,9 @@ void rev_string(char *s)
 
 	k = n - 1;
 
-	for  (j =  k,  i = 0; j >= 0, i <= n; j--, i++)
+	for  (j =  k,  i = 0; j >= 0 i <= n; j--, i++)
 	{
-		test[i] = store[j];
+		test[i] = st[j];
 	}
 
 	l = 0;

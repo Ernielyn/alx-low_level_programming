@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- *_puts - a function hat prints  a string followed by a new line to stdout
+ *_puts - a function that prints  a string followed by a new line to stdout
  *
  * @str: an input string to be printed to stdout
  *
@@ -17,4 +17,4 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
-	_putchar('\0');
+	_putchar('\n');
