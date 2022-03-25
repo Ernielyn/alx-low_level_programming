@@ -19,7 +19,7 @@ char *leet(char *s)
 
 	i = 0;
 
-	while  (s[i])
+	while  (i <= n)
 	{
 		for (j = 0; j <= 10; j++)
 		{
@@ -30,6 +30,6 @@ char *leet(char *s)
 		}
 		i++;
 	}
-	
+
 	return (s);
-}	
+}
