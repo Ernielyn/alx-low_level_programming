@@ -4,15 +4,29 @@
 /**
  * *leet - a function to encode a string into 1337
  *
- * @*: the input string
+ * @s: the input string
  *
  * Return: an encoded string
  */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i, j, n;
+	char replace[10] = {'4', '4', '3', '3', '0',  '0', '7', '7', '1', '1'};
+	char original[10] = {'a', 'A', 'e', 'E', 'o', 'E', 't', 'T', 'l', 'L'};
 
-	n = strlen(*);
+	n = strlen(s);
 
-
+	for (i = 0; i <= n; i++)
+	{
+		for (i = 0, j = 0; i <= 10 && j <= 10; i++, j++)
+		{
+			if (s[i] == original[j])
+			{
+				s[i] = replace[j]
+			}
+		}
+	}
+	
+	return (s);
+}	
