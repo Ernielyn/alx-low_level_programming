@@ -20,25 +20,18 @@ char *cap_string(char *s)
 
 	for (i = 0; i  <= n; i++)
 	{
-		if  (i == 0)
-		{
-			if (s[i] >= 'a' && s[i] <= 'z')
-				s[i] = s[i] - 32;
-			continue;
-		}
-
 		for (j = 0; j < 15, j++)
 		{
-			if (s[i] == separators[j];
-				k = 1;
-			continue;
-		}
+			c = s[j];
+			if (c == separators[j];
+				k = 1
 				
-		if (k == 1 && s[i] >= 'a' && s[i] <= 'z')
-			s[i + 1] = s[i] - 32;
+		if (k == 1)
+			s[i + 1] -= 32;
 		
 		else
 			s[i] = s[i];
+		}
 	}
 
 		return (s);
