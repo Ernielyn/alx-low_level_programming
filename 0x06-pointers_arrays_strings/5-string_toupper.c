@@ -12,15 +12,14 @@
 
 char *string_toupper(char *s)
 {
-	int i, j, n;
-	char *upper
+	int j, n;
 
 	n = strlen(s);
 
-	fo(i = 0, j = 0; i <= n && j <= n; i++, j++)
+	for (j = 0; j <= n; j++)
 	{
-		upper[j] = toupper(s[i]);
+		s[j] = -32;
 	}
 
-	return (upper);
+	return (s);
 }
