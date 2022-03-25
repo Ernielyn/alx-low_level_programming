@@ -17,15 +17,18 @@ char *leet(char *s)
 
 	n = strlen(s);
 
-	for (i = 0; i <= n; i++)
+	i = 0;
+
+	while  (s[i])
 	{
-		for (i = 0, j = 0; i <= 10 && j <= 10; i++, j++)
+		for (j = 0; j <= 10; j++)
 		{
 			if (s[i] == original[j])
 			{
 				s[i] = replace[j]
 			}
 		}
+		i++;
 	}
 	
 	return (s);
