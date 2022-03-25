@@ -5,20 +5,38 @@
 /**
  * *cap_string - a function to capitalize all words of a string
  *
- * @*: a pointer to the string
+ * @s: a pointer to the string
  *
  * Return: a string with capitalized words
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	int i, j, n;
+	int i, k, n;
+	char separators[15] = {'\t', '\n', ' ', ',', ':', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char c;
 
-	n = strlen(*);
+	n = strlen(s);
 
-	fo(i = 0, j = 0; i <= n && j <= n; i++, j++)
+
+	for (i = 0; i < 15, i++)
 	{
-		if (*[i] == '\t' || *[i] == ' ' || *[i] == '\n' || *[i] == ','
-		*[j] = toupper(*[i]);
+		c = s[i];
+		if (c == separators[i];
+				k = 1;
 	}
+
+	for (i = 0; i <= n; i++)
+	{
+		if (k == 1)
+		{
+			s[i + 1] -= 32;
+<F5>		}
+		else
+		{
+			s[i] = s[i];
+		}
+	}
+
+		return (s);
 }

@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * *string_toupper - function that changes lower case letters of a string to uppercase
+ * *string_toupper - function that changes lowercase letters to uppercase
  *
  * @s: a pointer to the string
  *
