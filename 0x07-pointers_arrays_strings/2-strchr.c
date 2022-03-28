@@ -12,5 +12,9 @@
 
 char *_strchr(char *s, char c)
 {
-	strchar(s, c);
+	char *f;
+
+	f = strchar(s, c);
+
+	return (f);
 }
