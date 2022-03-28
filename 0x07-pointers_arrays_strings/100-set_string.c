@@ -1,4 +1,4 @@
-#include "mainh."
+#include "main.h"
 
 /**
  * set_string - a function to change the content of a string
@@ -12,5 +12,5 @@
 
 void set_string(char **s, char *to)
 {
-	*s = to;
+	**s = *to;
 }
